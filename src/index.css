@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+html {
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  .second_sec_icon_orange, .second_sec_icon_blue, .second_sec_icon_green {
+    font-size: 20px !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+}

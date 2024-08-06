@@ -1,0 +1,26 @@
+.sidebar_icons {
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: #4e4e5b;
+    width: 70px;
+}
+.sidebar_icons:hover {
+    color: rgb(75, 75, 238);
+    border-left: 3px solid rgb(75, 75, 238);
+}
+.active {
+    border-left: 3px solid rgb(75, 75, 238);
+    color: rgb(75, 75, 238);
+}
+.additional_btn_style {
+    margin-top: 100px;
+    transform: rotateZ(180deg);
+}
+.additional_navbar_container {
+    overflow: scroll;
+    min-height: 100vh;
+}
+.additional_navbar_container::-webkit-scrollbar {
+    width: 0;
+}

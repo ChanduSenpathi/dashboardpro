@@ -1,0 +1,55 @@
+.navbar_container {
+    background-color: rgb(30, 30, 45);
+    /* backdrop-filter: blur(10px); */
+    z-index: 10000;
+}
+.nav_menubar {
+    color: rgb(109, 109, 255);
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+.search_container {
+    max-width: 250px;
+}
+.searchicon_position {
+    top: 30%;
+    left: 8%;
+}
+.searchbar {
+    border-radius: 10px;
+    border: none;
+}
+.avatar_img {
+    width: 50px;
+    height: 50px;
+}
+.navbar_icons {
+    font-size: 25px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: rgb(72, 72, 72);
+}
+.additional_bell_icon::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    animation: dotanim 1s linear infinite forwards;
+}
+
+@keyframes dotanim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2);
+        opacity: 0.6;
+    }
+}

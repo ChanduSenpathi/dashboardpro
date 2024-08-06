@@ -1,0 +1,142 @@
+.common_bg {
+    background-color: #1e1e2d;
+    border-radius: 10px;
+}
+.top_icons_blue, .top_icons_green, .top_icons_red, .top_icons_pink {
+    font-size: 25px;
+    color: rgb(21, 21, 255);
+    background-color: rgb(111, 111, 245);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.top_icons_green {
+    color: rgb(0, 146, 0);
+    background-color: rgb(138, 244, 138);
+}
+.top_icons_red {
+    color: rgb(210, 0, 0);
+    background-color: rgb(252, 115, 115);
+}
+.top_icons_pink {
+    color: rgb(232, 28, 160);
+    background-color: rgb(244, 147, 215);
+}
+.circle_plus_pos {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.sub_top_last_card {
+    font-size: 12px;
+    font-weight: normal;
+}
+.top_section_rounded_desc {
+    font-size: 10px;
+}
+
+.bar_graph_container {
+    background-color: #1e1e2d;
+}
+.second_sec_icon_orange, .second_sec_icon_blue, .second_sec_icon_green {
+    font-size: 40px;
+    color: rgb(229, 157, 23);
+    background-color: rgb(88, 42, 37);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.second_sec_icon_blue {
+    background-color: rgb(50, 50, 96);
+    color: rgb(82, 82, 181);
+}
+.second_sec_icon_green {
+    background-color: rgb(58, 126, 175);
+    color: rgb(24, 98, 114);
+}
+.chevron_right_btn {
+    background-color: rgb(191, 188, 188);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.table_avatar {
+    width: 40px;
+    height: 40px;
+}
+.delivered_status,.cancelled_status, .pending_status {
+    background-color: rgb(83, 178, 83);
+    color: rgb(0, 106, 0);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.cancelled_status, .pending_status {
+    background-color: rgb(255, 120, 120);
+    color: rgb(199, 36, 36);
+}
+.border_bottom {
+    border-bottom: 1px solid #4e4e5b;
+}
+.fill_star {
+    color: rgb(212, 212, 0);
+}
+.review_para {
+    font-size: 12px;
+}
+.additional_bg {
+    height: 495px;
+    overflow: auto;
+}
+
+.additional_bg::-webkit-scrollbar {
+    width: 6px;
+}
+
+.additional_bg::-webkit-scrollbar-thumb {
+    background-color: rgb(72, 72, 72,0.7); 
+    border-radius: 50px;
+}
+
+.additional_bg::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+.weekly_btn {
+    background-color: rgb(72, 72, 72);
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.weekly_span_btn {
+    background-color: rgb(72, 72, 72);
+    border: none;
+    outline: none;
+    color: white;
+}
+.down_arrow_icon {
+    bottom: 30%;
+    right: 10%;
+}
+.growing_up_green {
+    color: rgb(22, 218, 22);
+}
+.net_profit_cost {
+    font-size: 22px;
+    font-weight: bold;
+}
+.circular_bar_span {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    max-width: 50px;
+    font-size: 10px;
+    
+}
